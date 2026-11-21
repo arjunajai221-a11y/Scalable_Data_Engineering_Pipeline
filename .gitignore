@@ -1,0 +1,52 @@
+﻿# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/*
+!logs/.gitkeep
+
+# Local Airflow configuration
+config/airflow.cfg
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed datasets
+data/processed/*
+!data/processed/.gitkeep
+
+# Spark files
+spark-warehouse/
+metastore_db/
+
+# IDE files
+.idea/
+.vscode/
+.metals/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
